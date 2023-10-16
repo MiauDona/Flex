@@ -1,0 +1,46 @@
+.flex-container-ej {
+    background-color: gold;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.item-container-ej {
+    background-color: darkslategray;
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+.flex-container {
+    background-color: rgb(151, 151, 151);
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: auto;
+}
+
+.nav-logo > img{
+    background-color: aqua;
+    width: 100%;
+    height: 120px;
+}
+
+.nav-menu{
+    background-color: black;
+    width: 50%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+}
+
+.nav-social{
+    background-color: blue;
+    width: 20%;
+}
